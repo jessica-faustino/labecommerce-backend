@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "target": "ES6", /* ECMAScript 6 */
+      "module": "commonjs", /* Módulo comum do typescript - serve para especificar e importar arquivos*/
+      "sourceMap": true, /* Fazer um arquivo mapeado do arquivo criado */
+      "outDir": "./build", /* O arquivo de saída (fora do diretório) qunaod converter o ts em js o aquivo final estará nessa pasta */
+      "rootDir": "./src", /* Rota principal, todo o projeto estará nessa pasta */
+      "removeComments": true, /* Mais utilizado no terminal, remove os comentários no terminal */
+      "noImplicitAny": true, /* Não vai implicar com o tipo any (recebe qualquer coisa)*/
+      "noEmitOnError": true, /* Não vai desabilitar os arquivos com erro no any*/
+      "esModuleInterop": true, /* Deixa trabalhar com os módulos do arquivo*/
+      "strict": true /* Como se fosse o professor chato, não vai aceitar erros bestas */
+  }
+} 
